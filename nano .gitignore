@@ -1,0 +1,29 @@
+# Laravel Specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/logs
+/storage/framework
+/bootstrap/cache
+
+# Environment Files
+.env
+.env.backup
+.env.production
+
+# IDE & Editor Configs
+/.fleet
+/.idea
+/.vscode
+*.log
+npm-debug.log
+yarn-error.log
+
+# PHPUnit Cache
+/.phpunit.cache
+.phpunit.result.cache
+
+# OS-generated files
+.DS_Store
+Thumbs.db
